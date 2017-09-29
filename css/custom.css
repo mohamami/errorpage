@@ -1,5 +1,10 @@
+.navbar-header {
+  max-height: 50px !important;
+}
+
 .navbar-brand {
-  height: 62px !important;
+  padding-top: 6px;
+  width: calc(100% - 60px);
 }
 
 .stylish-input-group .input-group-addon{
