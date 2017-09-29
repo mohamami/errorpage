@@ -98,8 +98,12 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <p class="text-muted">&copy; Vanderbilt University · Nashville, Tennessee 37240 · (615) 322-7311 · <a class="credits__link" href="/about/contact/">Contact Us</a> · <a class="credits__link" accesskey="0" href="http://web.vanderbilt.edu/">University Web Communications</a> </p>
+        <p class="text-muted">&copy; <span id="demo"></span> Vanderbilt University · Nashville, Tennessee 37240 · (615) 322-7311 · <a class="credits__link" href="/about/contact/">Contact Us</a> · <a class="credits__link" accesskey="0" href="http://web.vanderbilt.edu/">University Web Communications</a> </p>
     </footer>
+
+  <script>
+    document.getElementById("demo").innerText = new Date().getFullYear();
+  </script>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
